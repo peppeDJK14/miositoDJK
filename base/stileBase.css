@@ -1,0 +1,72 @@
+html, body {
+                height: 100%;
+                margin: 0;
+            }
+            table, tr, th{
+                border: 2px transparent #ff0000;
+                border-collapse: collapse/*separate*/;
+				background-size: 100% 100%;
+				padding: 4px;
+            }
+            table {
+                width: 100%/*90%*/;
+                height: 100%;
+				margin: auto; /*mette tutta la tabella al centro*/
+				border-spacing: 5px;
+            }
+			h1 {
+				font-family: cursive;
+				font-size: 50px;
+			}
+			#titolo {
+				background-image: url(sfondo.jpg); 
+				height: 280px;
+			}
+			#cont {
+				background-color: #fff; 
+				width: 80%; 
+				padding-left: 5%; 
+				padding-right: 5%; 
+				padding-top: 15px;
+				font-size: 20px;
+			}
+			#colegLat {
+				border-left: 15px groove purple;
+				background-color: #fff; 
+				vertical-align: top; 
+				text-align: center; 
+				line-height: 40px; 
+				padding-top: 20px;
+			}
+			#colegSu {
+				color: white;
+				text-shadow: 5px 5px 2px #000000;
+				}
+			#colegSu td{
+				width: 25%;
+			}
+			
+			#finepag {
+				height: 150px; 
+				background-image:url(sfondoViola.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				text-align: center;
+				
+			}
+			a {
+				color: orange;
+				text-decoration: none;
+				font-size: 20px;
+			}
+			a:hover {
+				background-color: rgba(255, 255, 255, 0.4);
+				color: purple;
+				text-decoration: none;
+			}
+			button {
+				border-radius: 5px;
+				background-color: orange;
+				font-size: 16px;
+				
+			}

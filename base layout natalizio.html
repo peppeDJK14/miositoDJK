@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+<title>mio layout</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+
+<style>
+body {
+	width: 90%;
+	margin: auto;
+}
+div:not([class*="corpo"]) {
+	background-color: rgba(255, 0, 0, 1.0);
+	padding: 10px;
+	border: 20px solid transparent;
+	border-image: url(https://img.freepik.com/psd-gratis/vista-della-cornice-quadrata-di-natale_23-2150894879.jpg) 209 round;
+}
+.testa {
+	background-image: linear-gradient(to bottom right, red, white);
+	<!-- background-image: url('pupazzoDiNeve.jpg'), linear-gradient(to bottom right, red, white);  -->
+	<!-- background-repeat: no-repeat; -->
+	<!-- background-size: 40px 50px, cover; -->
+	
+	
+}
+h1, h2, p, a {
+	color: white;
+	text-align: center;
+	font-family: 'Mountains of Christmas', cursive;
+	text-shadow: 2px 2px 4px #000;
+}
+.menu {
+	background-image: linear-gradient(to top right, red, white);
+}
+.menu ul{
+	list-style-type: none;
+	margin: auto;
+	padding: 10px;
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a{
+	display: inline;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+.menu a:hover{
+	background-color: rgba(255, 255, 255, 1.0);
+	color: rgb(255, 0, 0);
+}
+.corpoSin {
+	
+	width: 70%;
+	float: left;
+}
+.corpoDes {
+	width: 30%;
+	float: left;
+}
+.corpoSupremo {
+	overflow: auto;
+	background-image: url('pupazzoDiNeve.jpg'); 
+	background-size: 40px 60px;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.piedi {
+	clear: left;
+	background-image: linear-gradient(to top right, red, white);
+}
+@media screen and (max-width: 600px){
+	.corpoSin {
+	width: 100%;
+	float: left;
+	}
+	.corpoDes {
+	width: 100%;
+	float: left;
+	}
+}
+</style>
+
+</head>
+<body>
+
+<div class="testa">
+	<h1>Una bella pagina... forse</h1>
+</div>
+
+<div class="menu">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Novità</a></li>
+		<li><a href="#">Supporto</a></li>	
+	</ul>
+</div>
+<div class="corpoSupremo">
+<div class="corpoSin">
+	<div>
+		<h2>titolo paragrafo</h2>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+	</div>
+	<div>
+		<h2>titolo paragrafo</h2>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+	</div>
+</div>
+
+<div class="corpoDes">
+	<div>
+		<h2>titolo paragrafo</h2>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+	</div>
+	<div>
+		<h2>titolo paragrafo</h2>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+		<p>un po' di testo</p>
+	</div>
+</div>
+</div>
+<div class="piedi">
+	<h2>Fine pagina</h2>
+</div>
+
+</body>
+</html>
